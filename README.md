@@ -163,3 +163,81 @@ https://rinkeby.etherscan.io/tx/0x797969cdfc96570e2d14e888aa30afae1ab6138ce713be
 5. A link to the Nervos explorer for the successful Force bridge transaction. This can be found on Force Bridge under History→Succeed.
 
 https://explorer.nervos.org/aggron/transaction/0x830e3bf888857a4e42058a0d6ac39041dbacc34e18f9f98ba01b15156da3499d
+
+Task 7:  Hackathon: Nervos - Broaden the Spectrum
+Gitcoin: 7) Port an Existing Ethereum dApp to Polyjuice
+
+1. Screenshots or video of your application running on Godwoken.
+
+![Screenshot from 2021-08-14 10-28-47](https://user-images.githubusercontent.com/82784007/129449933-0f3c4627-3b62-4361-8552-1111fe15606c.png)
+
+2. Link to the GitHub repository with your application which has been ported to Godwoken.
+
+https://github.com/amrosaeed/Nervos-Hackathon/tree/master/Task%207/Blockchain-Wokshop
+
+3. If you deployed any smart contracts as part of this tutorial, please provide the transaction hash of the deployment transaction, the deployed contract address, and the ABI of the deployed smart contract. (Provide all in text format.)
+
+transaction hash of the deployment transaction : 0x39757cd5b41eceeb850266591f6138976ede726f26125647a49bafb2074139fb
+
+the deployed contract address : 0x7780B11649FFf04e217A6EF84265b3ecA04D965e
+
+3.ABI of the deployed smart contract :
+
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "owner",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "approved",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "uint256",
+          "name": "tokenId",
+          "type": "uint256"
+        }
+      ],
+      "name": "Approval",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "owner",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "operator",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "bool",
+          "name": "approved",
+          "type": "bool"
+        }
+      ],
+      "name": "ApprovalForAll",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
