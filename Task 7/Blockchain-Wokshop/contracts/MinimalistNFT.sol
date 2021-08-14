@@ -9,7 +9,7 @@ contract MinimalistNFT is ERC721URIStorage {
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIds;
 
-    constructor() ERC721('MinimalistNFT', 'OFT') {}
+    constructor() ERC721('MinimalistNFT', 'MFT') {}
 
     function awardItem(address player, string memory tokenURI) public returns (uint256) {
         _tokenIds.increment();
